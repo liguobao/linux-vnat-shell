@@ -10,6 +10,12 @@ sudo ifconfig eno1:2 down
 
 ```
 
+## 使用教程
+
+- find_default_nat_name 寻找当前系统的默认网卡，可能是eth0/eno1
+
+- create_echo_vnat 创建一个虚拟网卡，创建结果写入echo_vnat.txt文件中
+
 ## 相关资料
 
 - [理解Linux虚拟网卡设备tun/tap的一切](https://www.junmajinlong.com/virtual/network/all_about_tun_tap/)

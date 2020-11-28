@@ -20,7 +20,8 @@ function find_default_nat_name()
 
 function create_echo_vnat()
 {
-    ## create virtual network interface,eg:eht0:3
+    ## create virtual network interface,
+    # default:eht0:3 192.168.20.10
     sudo ifconfig $default_nat_name:3 192.168.20.10 up
     if [ $? -eq 0 ]
     then
